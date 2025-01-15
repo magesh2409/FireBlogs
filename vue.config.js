@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/FireBlogs',
   chainWebpack: (config) => {
     const svgRule = config.module.rule("svg");
 
